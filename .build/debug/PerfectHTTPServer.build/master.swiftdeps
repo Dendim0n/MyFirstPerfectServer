@@ -1,0 +1,11 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "de0094f537c8e9409813987358baa96b"
+build_time: [534304759, 24981000]
+inputs:
+  "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/PerfectHTTPServer-2.0.8/Sources/PerfectHTTPServer/HPACK.swift": [534246720, 0]
+  "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/PerfectHTTPServer-2.0.8/Sources/PerfectHTTPServer/HTTP11Request.swift": [534246720, 0]
+  "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/PerfectHTTPServer-2.0.8/Sources/PerfectHTTPServer/HTTP11Response.swift": [534246720, 0]
+  "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/PerfectHTTPServer-2.0.8/Sources/PerfectHTTPServer/HTTP2.swift": [534246720, 0]
+  "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/PerfectHTTPServer-2.0.8/Sources/PerfectHTTPServer/HTTPServer.swift": [534246726, 0]
+  "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/PerfectHTTPServer-2.0.8/Sources/PerfectHTTPServer/HTTPServerEx.swift": [534246726, 0]
+  "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/PerfectHTTPServer-2.0.8/Sources/PerfectHTTPServer/HTTPServerExConfig.swift": [534246720, 0]

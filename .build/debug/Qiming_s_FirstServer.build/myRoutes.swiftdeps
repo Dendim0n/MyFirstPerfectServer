@@ -1,0 +1,369 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "myRoutes"
+provides-nominal:
+- "C20Qiming_s_FirstServer8myRoutes"
+provides-member:
+- ["C20Qiming_s_FirstServer8myRoutes", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "print"
+- "Dictionary"
+- !private "!"
+- !private "AssignmentPrecedence"
+- !private "CastingPrecedence"
+- "Routes"
+- !private "String"
+- !private "!="
+- !private "ReturnCode"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- "myRoutes"
+- !private "ofoDatabase"
+depends-member:
+- !private ["Ps9AnyObject", "ReturnCode"]
+- !private ["Ps9AnyObject", "Routes"]
+- !private ["Ps9AnyObject", "getPassword"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "inputError"]
+- !private ["Ps9AnyObject", "jsonDecode"]
+- !private ["Ps9AnyObject", "noError"]
+- !private ["Ps9AnyObject", "ofoDatabase"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "savePassword"]
+- !private ["Ps9AnyObject", "sharedInstance"]
+- !private ["Ps9AnyObject", "systemError"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "deinit"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "Key"]
+- !private ["Ps7CVarArg", "Value"]
+- !private ["Ps7CVarArg", "_Element"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "jsonDecode"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "Key"]
+- !private ["Ps10Collection", "Value"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "jsonDecode"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "jsonDecode"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "jsonDecode"]
+- !private ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "Key"]
+- !private ["Ps17CustomReflectable", "Value"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "jsonDecode"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "get"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "jsonDecode"]
+- !private ["Ps23CustomStringConvertible", "post"]
+- !private ["Vs10Dictionary", "Iterator"]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "Value"]
+- !private ["Vs10Dictionary", "deinit"]
+- !private ["Vs18DictionaryIterator", "Element"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "get"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "jsonDecode"]
+- !private ["Ps9Equatable", "post"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Iterator"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Value"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "jsonDecode"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "jsonDecode"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "jsonDecode"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "jsonDecode"]
+- ["O11PerfectHTTP10HTTPMethod", "deinit"]
+- !private ["O11PerfectHTTP10HTTPMethod", "get"]
+- !private ["O11PerfectHTTP10HTTPMethod", "post"]
+- !private ["P11PerfectHTTP11HTTPRequest", "deinit"]
+- !private ["P11PerfectHTTP11HTTPRequest", "param"]
+- !private ["P11PerfectHTTP11HTTPRequest", "postParams"]
+- !private ["P11PerfectHTTP12HTTPResponse", "appendBody"]
+- !private ["P11PerfectHTTP12HTTPResponse", "completed"]
+- !private ["P11PerfectHTTP12HTTPResponse", "deinit"]
+- !private ["P11PerfectHTTP12HTTPResponse", "setBody"]
+- !private ["P11PerfectHTTP12HTTPResponse", "setHeader"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "get"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "jsonDecode"]
+- !private ["Ps8Hashable", "post"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "Key"]
+- !private ["Ps13IndexableBase", "Value"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Si", "deinit"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["P10PerfectLib15JSONConvertible", "Iterator"]
+- !private ["P10PerfectLib15JSONConvertible", "Key"]
+- !private ["P10PerfectLib15JSONConvertible", "Value"]
+- !private ["P10PerfectLib15JSONConvertible", "_Element"]
+- !private ["P10PerfectLib15JSONConvertible", "_getBuiltinLogicValue"]
+- !private ["P10PerfectLib15JSONConvertible", "deinit"]
+- !private ["P10PerfectLib15JSONConvertible", "init"]
+- !private ["P10PerfectLib15JSONConvertible", "jsonDecode"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "jsonDecode"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "jsonDecode"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "jsonDecode"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "jsonDecode"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "jsonDecode"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "jsonDecode"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "jsonDecode"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "jsonDecode"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "jsonDecode"]
+- !private ["OO11PerfectHTTP18HTTPResponseHeader4Name", "contentType"]
+- !private ["OO11PerfectHTTP18HTTPResponseHeader4Name", "deinit"]
+- !private ["Sq", "deinit"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["C20Qiming_s_FirstServer10ReturnCode", "inputError"]
+- !private ["C20Qiming_s_FirstServer10ReturnCode", "noError"]
+- !private ["C20Qiming_s_FirstServer10ReturnCode", "systemError"]
+- !private ["V11PerfectHTTP6Routes", "add"]
+- ["V11PerfectHTTP6Routes", "deinit"]
+- !private ["V11PerfectHTTP6Routes", "init"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "Key"]
+- !private ["Ps8Sequence", "Value"]
+- !private ["Ps8Sequence", "_Element"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["SS", "jsonDecode"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "jsonDecode"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "jsonDecode"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "jsonDecode"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "jsonDecode"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "jsonDecode"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "jsonDecode"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "jsonDecode"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "get"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "jsonDecode"]
+- !private ["Ps9_Hashable", "post"]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "jsonDecode"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["C20Qiming_s_FirstServer8myRoutes", "ReturnCode"]
+- ["C20Qiming_s_FirstServer8myRoutes", "Routes"]
+- !private ["C20Qiming_s_FirstServer8myRoutes", "String"]
+- ["C20Qiming_s_FirstServer8myRoutes", "deinit"]
+- ["C20Qiming_s_FirstServer8myRoutes", "get"]
+- ["C20Qiming_s_FirstServer8myRoutes", "init"]
+- !private ["C20Qiming_s_FirstServer8myRoutes", "ofoDatabase"]
+- !private ["C20Qiming_s_FirstServer8myRoutes", "print"]
+- ["C20Qiming_s_FirstServer8myRoutes", "save"]
+- ["C20Qiming_s_FirstServer8myRoutes", "saveMultiple"]
+- ["C20Qiming_s_FirstServer8myRoutes", "testRoutes"]
+- !private ["C20Qiming_s_FirstServer11ofoDatabase", "deinit"]
+- !private ["C20Qiming_s_FirstServer11ofoDatabase", "getPassword"]
+- !private ["C20Qiming_s_FirstServer11ofoDatabase", "savePassword"]
+- !private ["C20Qiming_s_FirstServer11ofoDatabase", "sharedInstance"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "Sb"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "Vs18DictionaryIterator"
+- !private "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "O11PerfectHTTP10HTTPMethod"
+- !private "P11PerfectHTTP11HTTPRequest"
+- !private "P11PerfectHTTP12HTTPResponse"
+- !private "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- !private "Si"
+- !private "Ps16IteratorProtocol"
+- !private "P10PerfectLib15JSONConvertible"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "OO11PerfectHTTP18HTTPResponseHeader4Name"
+- !private "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "C20Qiming_s_FirstServer10ReturnCode"
+- "V11PerfectHTTP6Routes"
+- !private "Ps8Sequence"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- "C20Qiming_s_FirstServer8myRoutes"
+- !private "C20Qiming_s_FirstServer11ofoDatabase"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectHTTPServer.swiftmodule"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/PerfectHTTPServer-2.0.8/Sources/CHTTPParser/include/http_parser.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/module.modulemap"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/PerfectHTTPServer-2.0.8/Sources/CHTTPParser/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectHTTP.swiftmodule"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../ssl.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../srtp.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../ssl23.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../pqueue.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../dtls1.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../tls1.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../ssl3.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../ssl2.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../opensslconf.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../kssl.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../hmac.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../pem2.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../e_os2.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../pem.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../pkcs7.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../x509_vfy.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../sha.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../dh.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../dsa.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../rsa.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../ecdh.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../ecdsa.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../ec.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../bn.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../asn1.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../obj_mac.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../objects.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../evp.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../buffer.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../x509.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../comp.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../lhash.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../err.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../symhacks.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../ossl_typ.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../opensslv.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../safestack.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../stack.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../crypto.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../bio.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/openssl.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectLib.swiftmodule"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectNet.swiftmodule"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectThread.swiftmodule"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/SQLite.swiftmodule"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/SQLite3-2.0.0/p_sqlite3.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/SQLite3-2.0.0/module.modulemap"
+interface-hash: "06e8500ef1cc43ec14cfca968d1e0ea9"

@@ -1,0 +1,9 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "e9ad9fc0bb5d2597838878ba3fed32bf"
+build_time: [534582677, 90852000]
+inputs:
+  "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Sources/arguments.swift": [534246163, 0]
+  "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Sources/CodeAndMsg.swift": [534579024, 0]
+  "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Sources/main.swift": [534581781, 0]
+  "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Sources/myRoutes.swift": [534582655, 0]
+  "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Sources/ofoDatabase.swift": [534580367, 0]

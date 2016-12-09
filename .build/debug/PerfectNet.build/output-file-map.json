@@ -1,0 +1,35 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectNet.build/master.swiftdeps"
+  },
+  "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/PerfectNet-2.0.5/Sources/Net.swift": {
+    "dependencies": "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectNet.build/Net.d",
+    "object": "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectNet.build/Net.swift.o",
+    "swiftmodule": "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectNet.build/Net~partial.swiftmodule",
+    "swift-dependencies": "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectNet.build/Net.swiftdeps"
+  },
+  "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/PerfectNet-2.0.5/Sources/NetEvent.swift": {
+    "dependencies": "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectNet.build/NetEvent.d",
+    "object": "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectNet.build/NetEvent.swift.o",
+    "swiftmodule": "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectNet.build/NetEvent~partial.swiftmodule",
+    "swift-dependencies": "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectNet.build/NetEvent.swiftdeps"
+  },
+  "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/PerfectNet-2.0.5/Sources/NetNamedPipe.swift": {
+    "dependencies": "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectNet.build/NetNamedPipe.d",
+    "object": "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectNet.build/NetNamedPipe.swift.o",
+    "swiftmodule": "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectNet.build/NetNamedPipe~partial.swiftmodule",
+    "swift-dependencies": "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectNet.build/NetNamedPipe.swiftdeps"
+  },
+  "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/PerfectNet-2.0.5/Sources/NetTCP.swift": {
+    "dependencies": "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectNet.build/NetTCP.d",
+    "object": "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectNet.build/NetTCP.swift.o",
+    "swiftmodule": "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectNet.build/NetTCP~partial.swiftmodule",
+    "swift-dependencies": "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectNet.build/NetTCP.swiftdeps"
+  },
+  "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/PerfectNet-2.0.5/Sources/NetTCPSSL.swift": {
+    "dependencies": "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectNet.build/NetTCPSSL.d",
+    "object": "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectNet.build/NetTCPSSL.swift.o",
+    "swiftmodule": "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectNet.build/NetTCPSSL~partial.swiftmodule",
+    "swift-dependencies": "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectNet.build/NetTCPSSL.swiftdeps"
+  }
+}

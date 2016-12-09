@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectThread.build/master.swiftdeps"
+  },
+  "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/PerfectThread-2.0.3/Sources/Threading.swift": {
+    "dependencies": "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectThread.build/Threading.d",
+    "object": "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectThread.build/Threading.swift.o",
+    "swiftmodule": "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectThread.build/Threading~partial.swiftmodule",
+    "swift-dependencies": "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectThread.build/Threading.swiftdeps"
+  },
+  "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/PerfectThread-2.0.3/Sources/ThreadQueue.swift": {
+    "dependencies": "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectThread.build/ThreadQueue.d",
+    "object": "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectThread.build/ThreadQueue.swift.o",
+    "swiftmodule": "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectThread.build/ThreadQueue~partial.swiftmodule",
+    "swift-dependencies": "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectThread.build/ThreadQueue.swiftdeps"
+  }
+}

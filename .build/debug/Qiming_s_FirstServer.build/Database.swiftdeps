@@ -1,0 +1,202 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Database"
+provides-nominal:
+- "C20Qiming_s_FirstServer8Database"
+provides-member:
+- ["C20Qiming_s_FirstServer8Database", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- !private "print"
+- !private "MySQL"
+- "Database"
+- "StringLiteralType"
+- !private "BooleanLiteralType"
+- "String"
+depends-member:
+- !private ["Ps9AnyObject", "MySQL"]
+- !private ["Ps9AnyObject", "close"]
+- !private ["Ps9AnyObject", "connect"]
+- !private ["Ps9AnyObject", "errorMessage"]
+- !private ["Ps9AnyObject", "host"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "user"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- ["Ps7CVarArg", "init"]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["C20Qiming_s_FirstServer8Database", "Bool"]
+- !private ["C20Qiming_s_FirstServer8Database", "MySQL"]
+- ["C20Qiming_s_FirstServer8Database", "String"]
+- ["C20Qiming_s_FirstServer8Database", "dbName"]
+- ["C20Qiming_s_FirstServer8Database", "deinit"]
+- ["C20Qiming_s_FirstServer8Database", "host"]
+- ["C20Qiming_s_FirstServer8Database", "init"]
+- ["C20Qiming_s_FirstServer8Database", "login"]
+- ["C20Qiming_s_FirstServer8Database", "password"]
+- !private ["C20Qiming_s_FirstServer8Database", "print"]
+- ["C20Qiming_s_FirstServer8Database", "user"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "init"]
+- !private ["P10PerfectLib15JSONConvertible", "_getBuiltinLogicValue"]
+- ["P10PerfectLib15JSONConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- !private ["C5MySQL5MySQL", "close"]
+- !private ["C5MySQL5MySQL", "connect"]
+- ["C5MySQL5MySQL", "deinit"]
+- !private ["C5MySQL5MySQL", "errorMessage"]
+- !private ["C5MySQL5MySQL", "init"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "init"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "C20Qiming_s_FirstServer8Database"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "P10PerfectLib15JSONConvertible"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "C5MySQL5MySQL"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectHTTPServer.swiftmodule"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/PerfectHTTPServer-2.0.8/Sources/CHTTPParser/include/http_parser.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/module.modulemap"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/PerfectHTTPServer-2.0.8/Sources/CHTTPParser/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectHTTP.swiftmodule"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../ssl.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../srtp.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../ssl23.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../pqueue.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../dtls1.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../tls1.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../ssl3.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../ssl2.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../opensslconf.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../kssl.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../hmac.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../pem2.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../e_os2.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../pem.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../pkcs7.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../x509_vfy.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../sha.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../dh.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../dsa.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../rsa.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../ecdh.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../ecdsa.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../ec.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../bn.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../asn1.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../obj_mac.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../objects.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../evp.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../buffer.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../x509.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../comp.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../lhash.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../err.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../symhacks.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../ossl_typ.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../opensslv.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../safestack.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../stack.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../crypto.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/../bio.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/COpenSSL-2.0.2/COpenSSL/include/openssl.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectLib.swiftmodule"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectNet.swiftmodule"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/PerfectThread.swiftmodule"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/.build/debug/MySQL.swiftmodule"
+- "/usr/local/Cellar/mysql/5.7.16/include/mysql/mysql/psi/psi_base.h"
+- "/usr/local/Cellar/mysql/5.7.16/include/mysql/mysql/psi/psi_memory.h"
+- "/usr/local/Cellar/mysql/5.7.16/include/mysql/my_alloc.h"
+- "/usr/local/Cellar/mysql/5.7.16/include/mysql/typelib.h"
+- "/usr/local/Cellar/mysql/5.7.16/include/mysql/mysql/plugin_auth_common.h"
+- "/usr/local/Cellar/mysql/5.7.16/include/mysql/mysql/client_plugin.h"
+- "/usr/local/Cellar/mysql/5.7.16/include/mysql/my_list.h"
+- "/usr/local/Cellar/mysql/5.7.16/include/mysql/mysql_time.h"
+- "/usr/local/Cellar/mysql/5.7.16/include/mysql/my_command.h"
+- "/usr/local/Cellar/mysql/5.7.16/include/mysql/binary_log_types.h"
+- "/usr/local/Cellar/mysql/5.7.16/include/mysql/mysql_com.h"
+- "/usr/local/Cellar/mysql/5.7.16/include/mysql/mysql_version.h"
+- "/usr/local/include/mysql/mysql.h"
+- "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/mysqlclient-2.0.0/module.modulemap"
+interface-hash: "a93d39acb78ca0091e967dd9e812880b"
