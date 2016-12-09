@@ -1,5 +1,0 @@
-version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
-options: "ce6781df5df9a1fe0b1c2ab8f44eae32"
-build_time: [534582676, 657708000]
-inputs:
-  "/Users/Dendim0N/Desktop/TestSwiftPerfectServer/Packages/SQLite-2.0.1/Sources/SQLite/SQLite.swift": [534575778, 0]
