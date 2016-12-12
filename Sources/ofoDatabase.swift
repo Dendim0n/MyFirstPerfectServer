@@ -29,9 +29,9 @@ class ofoDatabase {
     
     func savePassword(code:String,password:String) -> (Bool,String) {
         do {
-            if code.characters.count != 6 || password.characters.count != 4 {
-                return (false,"Invalid Info")
-            }
+//            if code.characters.count != 6 || password.characters.count != 4 {
+//                return (false,"Invalid Info")
+//            }
             
             let insertStatement = "INSERT INTO account VALUES (\(code),\(password))"
             
