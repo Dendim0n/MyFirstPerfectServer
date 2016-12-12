@@ -87,10 +87,16 @@ class myRoutes {
                 
                 let queryResult = ofoDatabase.sharedInstance.getPassword(code: code)
                 var code = ReturnCode.noError
+                var msg = ""
+                var password = ""
                 if !queryResult.0 {
                     code = ReturnCode.systemError
+                    password = ""
+                    msg = queryResult.1
+                } else {
+                    password = queryResult.1
                 }
-                try? response.setBody(json: ["code":code,"msg" :"" ,"password":queryResult.1])
+                try? response.setBody(json: ["code":code,"msg" :msg ,"password":password])
                 
             } else {
                 try? response.setBody(json: ["code":ReturnCode.inputError,"msg":"no code input"])
@@ -103,20 +109,20 @@ class myRoutes {
     
     func saveMultiple() -> Routes {
         var routes = Routes()
-        routes.add(method: .post, uri: "/saveMultiple", handler: {
+        let handler:RequestHandler = {
             request, response in
             for param in request.postParams {
-                let decoded = try? param.0.jsonDecode() as? [String:String]
-                if decoded != nil {
-                    for (key,value) in decoded!! {
-                        _ = ofoDatabase.sharedInstance.savePassword(code: key, password: value)
-                    }
+                let data = param.0.data(using:String.Encoding.utf8)
+                let jsonArr = try? JSONSerialization.jsonObject(with: data!, options: JSONSerialization.ReadingOptions.mutableContainers) as! [[String:String]]
+                for dic in jsonArr! {
+                    print(dic)
+                    _ = ofoDatabase.sharedInstance.savePassword(code: dic["code"]!, password: dic["password"]!)
                 }
                 try? response.setBody(json: ["code":ReturnCode.noError,"msg":"Add Complete"])
-                
-                response.completed()
             }
-        })
+            response.completed()
+        }
+        routes.add(method: .post, uri: "/saveMultiple", handler: handler)
         return routes
     }
 }

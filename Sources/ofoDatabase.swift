@@ -86,6 +86,10 @@ class ofoDatabase {
         
     }
     
+    func getAll() {
+        
+    }
+    
     func closeDB() {
         sqlite?.close()
     }
