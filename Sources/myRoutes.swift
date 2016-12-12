@@ -65,7 +65,15 @@ class myRoutes {
                     
                     let queryResult = ofoDatabase.sharedInstance.savePassword(code: code, password: password)
                     
-                    try? response.setBody(json: ["code":ReturnCode.noError,"msg" : queryResult.1])
+                    var code = ReturnCode.noError
+                    
+                    if queryResult.0 {
+                        
+                    } else {
+                        code = ReturnCode.systemError
+                    }
+                    
+                    try? response.setBody(json: ["code":code,"msg" : queryResult.1])
                     
                 } else {
                     try? response.setBody(json: ["code":ReturnCode.inputError,"msg":"no password input"])
